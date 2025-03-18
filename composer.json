@@ -3,7 +3,7 @@
     "description": "how to know the total of the area protected",
     "autoload": {
         "psr-4": {
-            "App\\": "../areaProtected/src/"
+            "App\\": "src/"
         }
     },
     "authors": [

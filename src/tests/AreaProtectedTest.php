@@ -1,8 +1,8 @@
 <?php
 
-namespace tests;
+namespace App\tests;
 
-use App\AreaProtectedService;
+use App\Service\AreaProtectedService;
 use PHPUnit\Framework\TestCase;
 
 
