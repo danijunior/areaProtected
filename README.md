@@ -1,10 +1,11 @@
 # AreaProtected project
-```How to know the total of the area protected against desastre```
+```How to know the total of the area protected against desastre``` 
 
 ### Requirements
 ---
 - Minimum PHP 7
 - Composer 2
+- knowledge of unit testing
 
 
 ### Installation
@@ -20,7 +21,7 @@ $ make  install
 # Check with php stan
 $ make php-stan
 
-# Run the test
+# Run the test to see the result
 $ make php-unit
 ```
 
