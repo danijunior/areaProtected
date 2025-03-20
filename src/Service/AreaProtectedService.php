@@ -15,10 +15,12 @@ class AreaProtectedService
 
         foreach ($altitudes as $height) {
 
+            if ($height === $maxHeight) {
+                continue;
+            }
+
             if ($height > $maxHeight) {
                 $maxHeight = $height;
-            } else if ($height === $maxHeight) {
-                continue;
             } else {
                 $areaProtected++;
             }
