@@ -14,9 +14,6 @@ class AreaProtectedService
         $areaProtected = 0;
 
         foreach ($altitudes as $height) {
-            if ($height === 0) {
-                continue;
-            }
 
             if ($height > $maxHeight) {
                 $maxHeight = $height;
